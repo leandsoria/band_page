@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+*{
+    box-sizing: border-box;    
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Zen Dots', cursive;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+nav {
+    height: 40px;
+    text-transform: uppercase;
+    background-color: #000;
+    position: fixed;
+    z-index: 2;
+}
+nav ul {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+    color: #fff;
+}
+
+a{
+    color: #fff;
+    padding: 10px 10px;
+}
+span{
+padding: 10px 10px;
+}
+.nav.expand {
+    display: none;
+}
+
+nav a:hover, nav span:hover, .nav.expand:hover{
+    background-color: whitesmoke;
+    color: #000;
+    transition: all 0.3s ease;
+}
+
+#index .img-container {
+    position: initial;
+    background-size: cover;    
+    background-repeat: no-repeat;
+    height:100vh;
+    width: 100%;
+    overflow: hidden;
+}
+#index article{
+    position: absolute;
+    color: #fff;
+    font-size: 30px;
+    top: 90%;
+    left: 25%;
+}
+#index h3{
+    text-align: center;
+}
+#band {
+    text-align: center;
+}
+
+#band h2 {
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#band small{
+    font-style: italic;
+    font-weight: 100;
+    color: #888;
+    font-size: 11px;
+}
+#band .paragraph {
+    margin: 0 20% 40px;
+}
+#band .members-img {
+    height: 30vh;
+    width: 100%;
+}
+#band  .member {
+     display: inline-block;
+     margin: 0 30px;
+}
+#band .member p {
+    margin-bottom: 5px;
+}
+#band .member img {
+    height: 200px;
+}
+
+
+#tours {
+    background-color: #000;
+    height: 80vh;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+#tours h2{
+    text-transform: uppercase;
+    margin: 40px 0 20px;
+}
+#tours small {
+    font-style: italic;
+    font-weight: 100;
+    color: #888;
+    font-size: 11px;
+}
+#tours .month {
+    margin-top: 20px;
+    overflow: hidden;
+}
+#tours .month-tour {
+    color: #444;;
+    background-color: #ddd;
+    border: 1px solid #eee;
+    width: 800px;
+    height: 40px;
+    margin: auto;
+    padding: 10px;
+    text-align: start;
+}
+#tours .sold {
+    background-color: red;
+    color: #fff;
+    font-size: 14px;
+    padding: 3px;
+    margin-left: 10px;
+}
+#tours .available {
+    color: #fff;
+    background-color: #000;
+    padding: 4px 7px;
+    margin-left: 80%;
+    border-radius: 50%;
+}
+#tours .tour-img {
+    margin-top: 40px;
+}
+#tours .tour-info {
+    display: inline-block;
+    background-color: #ddd;
+    width: 250px;
+    overflow: hidden;
+    color: #000;
+}
+#tours .tour-info img  {
+    width: 100%;
+    opacity: 0.8;
+}
+#tours .tour-info img:hover  {
+    opacity: 1;
+}
+#tours h3{
+    margin: 10px 0;
+}
+#tours .date{
+    color:#444;
+    font-size: 14px;
+    font-style: italic;
+    margin: 10px 0;
+}
+#tours p {
+    margin: 15px 0 ;
+    font-size: 13px;
+}
+#tours .tour-info button{
+    float: left;
+    margin: 10px 0 3px 3px;
+    border: none;
+    padding: 7px 15px;
+    background-color: #000;
+    color: #fff;
+    font-family: inherit;
+}
+#tours .tour-info button:hover{
+    cursor: pointer;
+    background-color: #333;
+}
+
+#contact {
+    height: 30vh;
+    text-align: center;
+}
+#contact h2{
+    margin: 40px 0;
+    text-transform: uppercase;
+}
+#contact small {
+    color: #777;
+    font-style: italic;
+}
+
+#contact .contact-container {
+    margin-top: 30px;;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+#contact .info {
+
+}
+#contact form {
+    width: 400px;
+}
+#contact input {
+    width: 142px;
+    padding: 10px;
+    border: 1px solid #888;
+    margin: 5px;
+}
+#contact .message{
+    width: 300px;
+}
+#contact button {
+    background-color: #000;
+    bordeR: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
